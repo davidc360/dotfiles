@@ -41,12 +41,6 @@ colorscheme onehalfdark
 set mouse=nv
 let g:NERDTreeMouseMode=3
 
-" RC command opens up neovim config file
-command! RC :e $MYVIMRC
-command! Hyper :e ~/.hyper.js
-" Automatically source vimrc on save.
-autocmd! bufwritepost $MYVIMRC source $MYVIMRC
-
 " Open nerdtree on Vim startup
 " autocmd VimEnter * NERDTreDTree   
 
